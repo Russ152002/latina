@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<head>
+    <title>My profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="profile">
+        <h3>MY PROFILE</h3>
+        <img src="./img.jpg">
+        <table>
+            <tr>
+                <th>Name:</th>
+                <td>Rhazel Avenido Alforque</td>
+            </tr>
+            <tr>
+                <th>Age:</th>
+                <td>20</td>
+            </tr>
+            <tr>
+                <th>Status:</th>
+                <td>Single</td>
+            </tr>
+            <tr>
+                <th>Birthdate:</th>
+                <td>June 15,2002</td>
+            </tr>
+            <tr>
+                <th>Address:</th>
+                <td>ETC Residences Bayabas St. Cebu City</td>
+            </tr>
+            <tr>
+                <th>Mobile Number:</th>
+                <td>09687023329</td>
+            </tr>
+            <tr>
+                <th>Email Address:</th>
+                <td>russavenido@gmail.com</td>
+            </tr>
+            <tr>
+                <th>Secondary Education:</th>
+                <td>Asian College of Technology</td>
+            </tr><tr>
+                <th>Tertiary Education:</th>
+                <td>Asian College of Technology</td>
+            </tr>
+            <tr>
+                <th>Program:</th>
+                <td>Bachelor of Science Information Technology</td>
+            </tr>
+        </table>
+    </div>
+    <div class="form">
+        <label for="Fname" id="Fname">Full Name:</label><br>
+        <input type="text" name="Fname" id="fname"><br>
+        <label for="Eaddress">Email Address:</label><br>
+        <input type="text" name="Eaddress" id="Eaddress"><br>
+        <label for="example">Select Tour Package:</label><br>
+        <select name="example" id="Spackage">
+            <option value="A">Goa</option>
+            <option value="B">Dubai</option>
+            <option value="-">India</option>
+          </select><br>
+        <label for="Adate">Arrival Date:</label><br>
+        <input type="text" name="Adate" id="Adate"><br>
+        <label for="Npersons:">Number of Persons:</label><br>
+        <input type="text" name="Npersons" id="Npersons"> <br>
+        <label>What would you want to avail?</label><br>
+        <label for="Boarding">Boarding</label>
+        <input type="checkbox" name="Boarding" id="Boarding"><br>
+        <label for="Fooding">Fooding</label>
+        <input type="checkbox" name="Fooding" id="Fooding"><br>
+        <label for="Sseeing">Sight Seeing</label>
+        <input type="checkbox" name="Sseeing" id="Sseeing"><br>
+        <label for="Dcode">Discount Coupon Code:</label><br>
+        <input type="text" name="Dcode" id="Dcode"><br>
+        <label>Terms and Conditions*</label><br>
+        <input type="radio" name="Iagree" id="Iagree">
+        <label for="Iagree">I agree</label>
+        <input type="radio" name="Idisagree" id="Idisagree">
+        <label for="Idisagree">I disagree</label><br>
+        <button>Complete Reservation</button>   
+    </div>
+</body>
+<style>
+    body {
+    background: #ABD699;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.profile {
+    text-align: center;
+}
+.profile img {
+    width: 300px;
+    height: 300px;
+    border: 5px solid;
+    border-radius: 5rem;
+}
+.profile table {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    width: 50%;
+
+}
+.profile th {
+    border: 2px solid black;
+    text-align: right;
+}
+.profile td {
+    border: 2px solid black;
+    text-align: left;
+}
+.form {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid;
+    background: white;
+    width: 25%;
+    padding: 2%;
+}
+#Spackage {
+    width: 25%;
+}
+</style>
+</html>

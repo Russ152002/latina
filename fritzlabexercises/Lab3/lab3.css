@@ -1,0 +1,50 @@
+h3 {
+    text-align: center;
+}
+img {
+    width: 300px;
+    height: 300px;
+    border: 10px solid;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+html {
+    min-height: 200%;
+}
+table {
+    width: 50%;
+    font-size: 15px;
+    margin-top: 40px;
+    border: 2px solid;
+    margin-left: auto;
+    margin-right: auto;
+}
+th {
+    text-align: right;
+    border: 1px solid;
+}
+td {
+    text-align: left;
+    border: 1px solid;
+}
+form {
+    width: 60vw;
+    max-width: 200px;
+    min-width: 100px;
+    margin: 100px auto;
+
+}
+label {
+    margin: 0.5rem 0;
+}
+p, label {
+    width: auto;
+    height: auto;
+}
+input, select, label {
+    display: block;
+}

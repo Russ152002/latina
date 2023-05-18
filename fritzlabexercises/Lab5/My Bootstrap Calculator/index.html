@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<head>
+    <title>MY BOOTSTRAP CALCULATOR</title>
+    <!--FRITZ VELASCO IT404-->
+    <link rel="stylesheet" href="../My Bootstrap Calculator/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="../My Bootstrap Calculator/css/styles.css" type="text/css" >
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col"></div>
+            <div class="col">
+                <div class="card text-white bg-dark mb-3">
+                    <div class="card-header text-center">My Bootstrap Calculator</div>
+                    <div class="card-body">
+                        <div class="mb-3">
+                            <label for="txtNum1" class="form-label">Number 1:</label>
+                            <input type="text" class="form-control" id="txtNum1" placeholder="Enter number 1">
+                        </div>
+                        <div class="mb-3">
+                            <label for="txtNum2" class="form-label">Number 2:</label>
+                            <input type="text" class="form-control" id="txtNum2" placeholder="Enter number 2">
+                        </div><br>
+                        <div class="row">
+                            <div class="col">
+                                <div class="d-grip gap-2">
+                                    <button type="button" class="btn btn-primary btn-lg" onclick="addNumbers()"
+                                    style="--bs-btn-padding-x: 2rem;">+</button>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="d-grip gap-2">
+                                    <button type="button" class="btn btn-warning btn-lg" onclick="subtractNumbers()"
+                                    style="--bs-btn-padding-x: 2rem;">-</button>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="d-grip gap-2">
+                                    <button type="button" class="btn btn-success btn-lg" onclick="multiplyNumbers()"
+                                    style="--bs-btn-padding-x: 2rem;">*</button>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="d-grip gap-2">
+                                    <button type="button" class="btn btn-danger btn-lg" onclick="divideNumbers()"
+                                    style="--bs-btn-padding-x: 2rem;">/</button>
+                                </div>
+                            </div>
+                        </div><br>
+                        <div class="row">
+                            <div class="d-grip gap-2">
+                                <button type="button" class="btn btn-secondary" onclick="clearTextboxes()"
+                                style="--bs-btn-padding-x: 10.7rem;">Clear</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col"></div>
+        </div>
+    </div>
+
+ 
+    <script src="../My Bootstrap Calculator/js/script.js" type="text/javascript"></script>
+</body>
+</html>
